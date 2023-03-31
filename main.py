@@ -92,11 +92,11 @@ def getformatmsg(filename,status,procs,size,firsttime=False):
     prevtime[filename] = time.time()
 
     return f"**{filename}**\n\n\
-┌ Status: **{status}**\n\
+┌ Status:🔥 **{status}**\n\
 ├ {progress_bar(progress)}\n\
-├ Processed: **{procs/1048000:.2f} MB**\n\
-├ Total Size: **{size/1048000:.2f} MB**\n\
-└ Speed: **{speed:.2f} MB/s**"
+├ Processed:✅ **{procs/1048000:.2f} MB**\n\
+├ Total Size:📁 **{size/1048000:.2f} MB**\n\
+└ Speed:🚀 **{speed:.2f} MB/s**"
 
 
 # check for user access
